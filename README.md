@@ -16,19 +16,14 @@ File System (fs): To handle JSON file-based data storage.
 Setup Instructions
 Clone the Repository:
 
-bash
-Copy code
+
 git clone https://github.com/Mwantech/Online-Customer-Feedback-reviews-and-analysis.git
 cd repository-name
 Install Dependencies:
 
-bash
-Copy code
 npm install
 Start the Server:
 
-bash
-Copy code
 npm start
 By default, the server runs on http://localhost:3000.
 
@@ -40,8 +35,6 @@ API Endpoints
 Submit a Review
 POST /api/reviews
 Request Body:
-json
-Copy code
 {
   "productId": "product-id",
   "rating": 4.5,
@@ -65,8 +58,7 @@ Response: Returns analytics including sentiment breakdown and rating distributio
 Update a Review
 PUT /api/reviews/:reviewId
 Request Body:
-json
-Copy code
+
 {
   "productId": "updated-product-id",
   "rating": 5,
@@ -89,9 +81,7 @@ Neutral
 Negative
 Very Negative
 Directory Structure
-php
-Copy code
-.
+
 ├── public/                # Static files (HTML, CSS, JS)
 │   └── index.html         # Main web interface
 ├── reviews.json           # JSON file for storing reviews
@@ -101,16 +91,13 @@ Copy code
 Contributing
 Fork the repository.
 Create a new branch:
-bash
-Copy code
+
 git checkout -b feature-name
 Commit your changes:
-bash
-Copy code
+
 git commit -m "Add a new feature"
 Push to the branch:
-bash
-Copy code
+
 git push origin feature-name
 Submit a pull request.
 License
