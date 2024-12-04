@@ -1,4 +1,3 @@
-# Online-Customer-Feedback-reviews-and-analysis
 Reviews API and Sentiment Analysis
 This repository provides a simple API and web interface for managing product reviews. It includes sentiment analysis to classify reviews as Very Positive, Positive, Neutral, Negative, or Very Negative based on their content. The project is built with Node.js and Express and uses a JSON file to store review data.
 
@@ -20,7 +19,7 @@ Clone the Repository:
 bash
 Copy code
 git clone https://github.com/Mwantech/Online-Customer-Feedback-reviews-and-analysis.git
-cd Online-Customer-Feedback-reviews-and-analysis
+cd repository-name
 Install Dependencies:
 
 bash
