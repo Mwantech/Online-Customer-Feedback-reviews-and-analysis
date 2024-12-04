@@ -1,0 +1,42 @@
+[
+  {
+    "reviewId": "b8b4eac7-63b7-4968-b491-bde8fab22bee",
+    "productId": "1",
+    "rating": 4,
+    "review": "good product",
+    "sentiment": "Neutral",
+    "timestamp": "2024-12-04T08:56:28.539Z"
+  },
+  {
+    "reviewId": "feb3a6d0-478e-4159-8159-b148563aa2a2",
+    "productId": "1",
+    "rating": 5,
+    "review": "good product!",
+    "sentiment": "Neutral",
+    "timestamp": "2024-12-04T08:56:46.285Z"
+  },
+  {
+    "reviewId": "fa664c70-54a3-4b6f-b745-fac171ab82a2",
+    "productId": "2",
+    "rating": 1,
+    "review": "bad product",
+    "sentiment": "Very Negative",
+    "timestamp": "2024-12-04T08:57:51.269Z"
+  },
+  {
+    "reviewId": "bb87a804-3fec-4c71-a563-82972396fd5a",
+    "productId": "2",
+    "rating": 1.5,
+    "review": "bad product!!!",
+    "sentiment": "Very Negative",
+    "timestamp": "2024-12-04T08:58:08.938Z"
+  },
+  {
+    "reviewId": "e44eafd1-951d-4ad5-a147-ae4eeaee1c3e",
+    "productId": "2",
+    "rating": 1,
+    "review": "bad bad product",
+    "sentiment": "Very Negative",
+    "timestamp": "2024-12-04T08:58:22.675Z"
+  }
+]

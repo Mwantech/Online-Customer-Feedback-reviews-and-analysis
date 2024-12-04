@@ -1,0 +1,56 @@
+
+## Example API Requests
+
+### 1. Submit a Review
+```bash
+curl -X POST http://localhost:3000/api/reviews \
+     -H "Content-Type: application/json" \
+     -d '{
+         "productId": "laptop-001",
+         "rating": 4.5,
+         "review": "Great laptop, excellent performance!"
+     }'
+```
+
+### 2. Get Reviews
+```bash
+# Get all reviews
+curl http://localhost:3000/api/reviews
+
+# Filter by product ID
+curl "http://localhost:3000/api/reviews?productId=laptop-001"
+
+# Filter by rating range
+curl "http://localhost:3000/api/reviews?minRating=4&maxRating=5"
+```
+
+### 3. Get Analytics
+```bash
+# Get overall analytics
+curl http://localhost:3000/api/reviews/analytics
+
+# Get analytics for a specific product
+curl "http://localhost:3000/api/reviews/analytics?productId=laptop-001"
+```
+
+### 4. Update a Review
+```bash
+curl -X PUT http://localhost:3000/api/reviews/REVIEW_ID \
+     -H "Content-Type: application/json" \
+     -d '{
+         "review": "Updated review text",
+         "rating": 5
+     }'
+```
+
+### 5. Delete a Review
+```bash
+curl -X DELETE http://localhost:3000/api/reviews/REVIEW_ID
+```
+
+## API Endpoints
+- `POST /api/reviews`: Submit a new review
+- `GET /api/reviews`: List and filter reviews
+- `GET /api/reviews/analytics`: Get review analytics
+- `PUT /api/reviews/:reviewId`: Update a review
+- `DELETE /api/reviews/:reviewId`: Delete a review
